@@ -1,0 +1,244 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://gustymonitor1229.github.io/Boki/
+Subject: =?utf-8?Q?goalZ=20=E2=80=94=20Student=20dashboard?=
+Date: Fri, 18 Sep 2026 23:25:23 GMT
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--Lid9DaUqQfuGCwERvqvZHb62BVmoOXxZHLEwSq8KgB----"
+
+
+------MultipartBoundary--Lid9DaUqQfuGCwERvqvZHb62BVmoOXxZHLEwSq8KgB----
+Content-Type: text/html
+Content-ID: <frame-BC32B7582BC0DFCAF0FA82571708A2A3@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://gustymonitor1229.github.io/Boki/
+
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-43974d93-ffd0-4ab2-8bb5-fc3997f2d223@mhtml.blink" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#11122a">
+  <title>goalZ — Student dashboard</title>
+  
+</head>
+<body>
+<div class="app">
+  <header class="top"><div class="brand"><div class="logo">Z</div><div><h1>goalZ</h1><p>Your next move, organised.</p></div></div><div class="date" id="today">Saturday, 19 September</div></header>
+  <nav class="nav" id="nav"><button class="active" data-view="home">Home</button><button data-view="budget">Budget</button><button data-view="planner">Planner</button><button data-view="cyber">Cyber path</button><button data-view="notes">Notes &amp; to-dos</button><button data-view="reminders">Reminders</button></nav>
+
+  <main>
+    <section class="view active" id="home">
+      <div class="hero"><div class="eyebrow">Campus Neon • Version 1</div><h2>Build your school goals, university fund, and CISO future.</h2><p>goalZ keeps your Grade 11 workload realistic while you make steady progress toward university in 2028 and financial freedom.</p><button class="button secondary small" id="showWelcome">How goalZ protects your data</button></div>
+      <div class="grid stats" id="stats"><div class="card stat"><div class="label">Monthly saving</div><div class="value accent-green">R1&nbsp;200</div></div><div class="card stat"><div class="label">Budget total</div><div class="value accent-blue">R2&nbsp;000</div></div><div class="card stat"><div class="label">Goals saved</div><div class="value accent-pink">R0</div></div><div class="card stat"><div class="label">Cyber lessons</div><div class="value accent-yellow">0/7</div></div></div>
+      <div class="grid two"><div class="card"><div class="section-head"><h3>Next up</h3><button class="ghost small" data-goto="planner">Open planner</button></div><div id="upcoming" class="quick-list"><p class="empty">No exams added yet. Add one in Planner.</p></div></div><div class="card"><div class="section-head"><h3>Daily focus</h3><button class="ghost small" data-goto="notes">Add task</button></div><div id="focusTasks" class="quick-list"><div class="list-item row"><strong>Prepare for upcoming exams</strong><button class="icon">✓</button></div><div class="list-item row"><strong>Review one maths topic</strong><button class="icon">✓</button></div></div></div></div>
+    </section>
+
+    <section class="view" id="budget"><div class="section-head"><div><div class="eyebrow">Money</div><h2>Budget &amp; goals</h2></div><button class="button" id="saveBudget">Save budget</button></div><div class="budget-layout"><div class="card"><p class="muted">Edit each amount. goalZ checks that your monthly budget adds to R2,000.</p><div class="budget-form" id="budgetForm"><div class="field"><label>University</label><input type="number" min="0" step="1" data-budget="University" value="800"></div><div class="field"><label>Emergency fund</label><input type="number" min="0" step="1" data-budget="Emergency fund" value="200"></div><div class="field"><label>Long-term investment</label><input type="number" min="0" step="1" data-budget="Long-term investment" value="200"></div><div class="field"><label>Airtime, data &amp; spending</label><input type="number" min="0" step="1" data-budget="Airtime, data &amp; spending" value="800"></div></div><div class="divider"></div><div class="row"><span class="muted">Monthly total</span><strong class="budget-total" id="budgetTotal">R2&nbsp;000</strong></div><div class="row"><span class="muted" id="budgetMessage">Perfect — your budget is balanced.</span><button class="button secondary small" id="resetBudget">Reset yours</button></div></div><div class="card"><div class="section-head"><h3>Goal progress</h3><button class="ghost small" id="updateGoals">Update</button></div><div id="goals"><div class="goal"><div class="goal-top"><strong>University fund</strong><span class="muted">R0 / R15&nbsp;000</span></div><div class="progress"><i style="width:0%;background:linear-gradient(90deg,var(--blue),var(--purple))"></i></div><div class="row"><span class="muted">0% complete</span><button class="icon">Edit</button></div></div><div class="goal"><div class="goal-top"><strong>Emergency fund</strong><span class="muted">R0 / R5&nbsp;000</span></div><div class="progress"><i style="width:0%;background:linear-gradient(90deg,var(--pink),var(--purple))"></i></div><div class="row"><span class="muted">0% complete</span><button class="icon">Edit</button></div></div><div class="goal"><div class="goal-top"><strong>Long-term investment</strong><span class="muted">R0 / R10&nbsp;000</span></div><div class="progress"><i style="width:0%;background:linear-gradient(90deg,var(--green),var(--purple))"></i></div><div class="row"><span class="muted">0% complete</span><button class="icon">Edit</button></div></div></div></div></div></section>
+
+    <section class="view" id="planner"><div class="section-head"><div><div class="eyebrow">School first</div><h2>Study planner &amp; exams</h2></div><button class="button" data-open="eventModal">Add study item</button></div><div class="grid two"><div class="card"><div class="section-head"><h3>Your weekly routine</h3><span class="muted">Editable</span></div><div class="calendar-box"><div class="week" id="weekGrid"><div class="head">Time</div><div class="head">Mon</div><div class="head">Tue</div><div class="head">Wed</div><div class="head">Thu</div><div class="head">Fri</div><div class="head">Sat</div><div class="head">Sun</div><div class="time">16:00</div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div class="time">17:00</div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div class="time">18:00</div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div class="time">19:00</div><div></div><div><div class="event">Cyber lesson</div></div><div></div><div><div class="event">Cyber practice</div></div><div></div><div><div class="event">Cyber lab / project</div></div><div><div class="event">Plan the week</div></div><div class="time">20:00</div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div><div class="card"><div class="section-head"><h3>Exam tracker</h3><button class="ghost small" data-open="examModal">Add exam</button></div><div class="list" id="examList"><p class="empty">No exams tracked yet.</p></div></div></div><div class="card" style="margin-top:16px"><div class="section-head"><h3>Study items</h3><span class="muted">Tap done when finished</span></div><div class="list" id="eventList"><div class="list-item row"><div><strong>Cyber lesson</strong><span>Tuesday • 19:00 • 30 min</span></div><div class="item-actions"><button class="icon">✓</button><button class="icon">×</button></div></div><div class="list-item row"><div><strong>Cyber practice</strong><span>Thursday • 19:00 • 30 min</span></div><div class="item-actions"><button class="icon">✓</button><button class="icon">×</button></div></div><div class="list-item row"><div><strong>Cyber lab / project</strong><span>Saturday • 19:00 • 1 hr 30 min</span></div><div class="item-actions"><button class="icon">✓</button><button class="icon">×</button></div></div><div class="list-item row"><div><strong>Plan the week</strong><span>Sunday • 19:00 • 10 min</span></div><div class="item-actions"><button class="icon">✓</button><button class="icon">×</button></div></div></div></div></section>
+
+    <section class="view" id="cyber"><div class="section-head"><div><div class="eyebrow">CISO pathway</div><h2>Cybersecurity learning checklist</h2></div><button class="button" data-open="cyberModal">Add lesson</button></div><div class="card"><p class="muted">Small, legal learning steps. During exam weeks, pause this with zero guilt.</p><div class="progress"><i id="cyberProgress" style="width:0%"></i></div><span class="muted" id="cyberCount">0 of 7 lessons completed</span><div class="list" id="cyberList" style="margin-top:15px"><label class="check "><input type="checkbox"><span><strong>Computer &amp; internet basics</strong><br><span class="muted">Your next legal-learning step.</span></span><button class="icon" type="button">×</button></label><label class="check "><input type="checkbox"><span><strong>Networking foundations</strong><br><span class="muted">Your next legal-learning step.</span></span><button class="icon" type="button">×</button></label><label class="check "><input type="checkbox"><span><strong>Linux commands</strong><br><span class="muted">Your next legal-learning step.</span></span><button class="icon" type="button">×</button></label><label class="check "><input type="checkbox"><span><strong>Python basics</strong><br><span class="muted">Your next legal-learning step.</span></span><button class="icon" type="button">×</button></label><label class="check "><input type="checkbox"><span><strong>Security fundamentals</strong><br><span class="muted">Your next legal-learning step.</span></span><button class="icon" type="button">×</button></label><label class="check "><input type="checkbox"><span><strong>TryHackMe: Pre Security</strong><br><span class="muted">Your next legal-learning step.</span></span><button class="icon" type="button">×</button></label><label class="check "><input type="checkbox"><span><strong>TryHackMe: Cyber Security 101</strong><br><span class="muted">Your next legal-learning step.</span></span><button class="icon" type="button">×</button></label></div></div></section>
+
+    <section class="view" id="notes"><div class="section-head"><div><div class="eyebrow">Capture it</div><h2>Notes &amp; to-dos</h2></div><button class="button" data-open="noteModal">New note</button></div><div class="split"><div class="card"><div class="section-head"><h3>To-do list</h3><button class="ghost small" data-open="todoModal">Add task</button></div><div class="list" id="todoList"><label class="check "><input type="checkbox"><span><strong>Prepare for upcoming exams</strong></span><button class="icon" type="button">×</button></label><label class="check "><input type="checkbox"><span><strong>Review one maths topic</strong></span><button class="icon" type="button">×</button></label></div></div><div class="card"><div class="section-head"><h3>Notes</h3><span class="muted">Saved on this device</span></div><div class="list" id="noteList"><p class="empty">Your notes will appear here.</p></div></div></div></section>
+
+    <section class="view" id="reminders"><div class="section-head"><div><div class="eyebrow">Keep momentum</div><h2>Reminder setter</h2></div><button class="button" data-open="reminderModal">Set reminder</button></div><div class="card"><p class="muted">Reminders work while goalZ is open. Allow browser notifications for alerts. For reliable wake-up alarms, keep using your phone Clock app.</p><button class="button secondary small" id="notificationButton">Enable notifications</button><div class="divider"></div><div class="list" id="reminderList"><p class="empty">No reminders set yet.</p></div></div></section>
+  </main>
+</div>
+
+<div class="modal" id="modal"><div class="modal-box"><h3 id="modalTitle"></h3><div id="modalContent"></div><div class="modal-actions"><button class="button secondary" id="modalCancel">Cancel</button><button class="button" id="modalSave">Save</button></div></div></div><div class="toast" id="toast"></div>
+
+</body></html>
+------MultipartBoundary--Lid9DaUqQfuGCwERvqvZHb62BVmoOXxZHLEwSq8KgB----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-43974d93-ffd0-4ab2-8bb5-fc3997f2d223@mhtml.blink
+
+@charset "utf-8";
+
+:root { --bg: #090a18; --panel: #13152c; --panel2: #1a1d3c; --line: #2c3060; --text: #f8f8ff; --muted: #aeb3d0; --blue: #35b6ff; --purple: #9a65ff; --pink: #ff63c7; --green: #57e6ad; --yellow: #ffc857; --danger: #ff6d84; --shadow: 0 18px 45px rgba(0,0,0,.28); }
+
+* { box-sizing: border-box; }
+
+body { margin: 0px; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: radial-gradient(circle at 80% -10%,#322061 0,transparent 32%),radial-gradient(circle at -10% 18%,#092e58 0,transparent 30%),var(--bg); color: var(--text); min-height: 100vh; }
+
+button, input, textarea, select { font: inherit; }
+
+button { cursor: pointer; }
+
+.app { max-width: 1320px; margin: auto; padding: 24px 18px 48px; }
+
+.top { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 24px; }
+
+.brand { display: flex; align-items: center; gap: 12px; }
+
+.logo { width: 42px; height: 42px; border-radius: 13px; background: linear-gradient(135deg,var(--blue),var(--purple) 55%,var(--pink)); display: grid; place-items: center; color: rgb(9, 10, 24); font-weight: 900; font-size: 21px; box-shadow: rgba(73, 110, 255, 0.46) 0px 0px 26px; }
+
+.brand h1 { margin: 0px; font-size: 1.45rem; letter-spacing: -0.05em; }
+
+.brand p { margin: 2px 0px 0px; color: var(--muted); font-size: 0.82rem; }
+
+.date { color: var(--muted); font-size: 0.88rem; text-align: right; }
+
+.nav { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 5px; margin-bottom: 22px; }
+
+.nav button, .ghost, .tab { border: 1px solid var(--line); background: rgba(19, 21, 43, 0.66); color: var(--muted); padding: 10px 14px; border-radius: 12px; white-space: nowrap; }
+
+.nav button.active, .nav button:hover, .tab.active { color: var(--text); background: linear-gradient(120deg, rgb(31, 61, 112), rgb(52, 37, 83)); border-color: rgb(89, 107, 203); }
+
+.view { display: none; }
+
+.view.active { display: block; }
+
+.hero { padding: 25px; border-radius: 22px; background: linear-gradient(120deg, rgba(21, 44, 82, 0.8), rgba(37, 26, 73, 0.8)); border: 1px solid rgb(63, 76, 134); box-shadow: var(--shadow); position: relative; overflow: hidden; }
+
+.hero::after { content: ""; position: absolute; width: 250px; height: 250px; background: radial-gradient(circle,var(--pink),transparent 64%); right: -85px; top: -125px; opacity: 0.35; }
+
+.eyebrow { color: var(--blue); font-size: 0.76rem; letter-spacing: 0.14em; font-weight: 800; text-transform: uppercase; }
+
+.hero h2 { font-size: clamp(1.6rem, 4vw, 2.5rem); margin: 8px 0px; max-width: 690px; letter-spacing: -0.05em; }
+
+.hero p { color: rgb(204, 212, 252); max-width: 640px; line-height: 1.6; }
+
+.grid { display: grid; gap: 16px; margin-top: 16px; }
+
+.grid.stats { grid-template-columns: repeat(4, 1fr); }
+
+.grid.two { grid-template-columns: 1.2fr 0.8fr; }
+
+.card { background: linear-gradient(150deg, rgba(23, 26, 53, 0.91), rgba(16, 18, 40, 0.91)); border: 1px solid var(--line); border-radius: 18px; padding: 18px; box-shadow: var(--shadow); }
+
+.stat .label, .card .label { color: var(--muted); font-size: 0.8rem; }
+
+.stat .value { font-weight: 800; font-size: 1.55rem; margin-top: 7px; }
+
+.accent-blue { color: var(--blue); }
+
+.accent-pink { color: var(--pink); }
+
+.accent-green { color: var(--green); }
+
+.accent-yellow { color: var(--yellow); }
+
+.section-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin: 0px 0px 14px; }
+
+.section-head h3 { margin: 0px; font-size: 1.02rem; }
+
+.button { border: 0px; padding: 10px 13px; border-radius: 10px; background: linear-gradient(135deg,var(--blue),var(--purple)); color: rgb(7, 16, 29); font-weight: 800; }
+
+.button.secondary { background: rgb(36, 40, 75); color: rgb(229, 232, 255); border: 1px solid rgb(64, 72, 117); }
+
+.button.danger { background: rgb(66, 31, 57); color: rgb(255, 182, 207); border: 1px solid rgb(113, 50, 84); }
+
+.small { font-size: 0.78rem; padding: 7px 10px; }
+
+.progress { height: 9px; border-radius: 20px; background: rgb(40, 45, 80); overflow: hidden; margin: 10px 0px 8px; }
+
+.progress i { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg,var(--blue),var(--purple),var(--pink)); }
+
+.row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+
+.muted { color: var(--muted); font-size: 0.86rem; }
+
+.quick-list, .list { display: grid; gap: 10px; }
+
+.list-item { padding: 12px; border-radius: 12px; background: rgb(27, 30, 59); border: 1px solid rgb(42, 46, 87); }
+
+.list-item strong { display: block; font-size: 0.93rem; }
+
+.list-item span { color: var(--muted); font-size: 0.8rem; }
+
+.item-actions { display: flex; gap: 7px; }
+
+.icon { border: 1px solid rgb(69, 74, 120); background: rgb(36, 40, 75); color: rgb(220, 226, 255); border-radius: 8px; padding: 5px 8px; }
+
+.empty { color: var(--muted); text-align: center; padding: 24px 6px; }
+
+.budget-layout { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 16px; }
+
+.budget-form { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+
+.field { display: grid; gap: 6px; }
+
+.field label { font-size: 0.78rem; color: var(--muted); }
+
+input, textarea, select { width: 100%; border: 1px solid rgb(56, 61, 112); background: rgb(14, 16, 35); color: var(--text); border-radius: 10px; padding: 11px; outline: none; }
+
+input:focus, textarea:focus, select:focus { border-color: var(--blue); box-shadow: rgba(53, 182, 255, 0.118) 0px 0px 0px 3px; }
+
+textarea { min-height: 120px; resize: vertical; }
+
+.budget-total { font-size: 2rem; font-weight: 850; margin: 8px 0px; }
+
+.goal { padding: 12px 0px; border-bottom: 1px solid rgb(41, 45, 81); }
+
+.goal:last-child { border: 0px; }
+
+.goal-top { display: flex; justify-content: space-between; gap: 8px; }
+
+.split { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+.check { display: flex; align-items: flex-start; gap: 10px; padding: 12px; border: 1px solid rgb(44, 49, 91); background: rgb(24, 27, 56); border-radius: 12px; }
+
+.check input { width: 18px; height: 18px; margin-top: 1px; accent-color: var(--pink); }
+
+.check.done { opacity: 0.6; }
+
+.check.done strong { text-decoration: line-through; }
+
+.form-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+
+.form-grid .wide { grid-column: span 2; }
+
+.tabs { display: flex; gap: 8px; margin-bottom: 15px; }
+
+.tabs .tab { font-size: 0.85rem; padding: 8px 11px; }
+
+.calendar-box { overflow: auto; }
+
+.week { display: grid; grid-template-columns: 85px repeat(7, minmax(88px, 1fr)); min-width: 740px; }
+
+.week > div { min-height: 58px; border-right: 1px solid rgb(40, 45, 82); border-bottom: 1px solid rgb(40, 45, 82); padding: 8px; font-size: 0.78rem; }
+
+.week .head { color: var(--muted); text-align: center; background: rgb(18, 20, 45); }
+
+.week .time { color: var(--muted); }
+
+.event { font-size: 0.69rem; padding: 5px; border-radius: 6px; background: rgb(31, 76, 120); color: rgb(213, 242, 255); border-left: 3px solid var(--blue); margin-top: 4px; }
+
+.exam { background: rgb(83, 35, 77); border-left-color: var(--pink); color: rgb(255, 213, 238); }
+
+.toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%) translateY(100px); transition: 0.3s; background: rgb(232, 237, 255); color: rgb(16, 18, 40); padding: 11px 16px; border-radius: 12px; font-weight: 700; box-shadow: var(--shadow); z-index: 10; }
+
+.toast.show { transform: translateX(-50%) translateY(0px); }
+
+.modal { position: fixed; inset: 0px; background: rgba(5, 6, 17, 0.74); display: none; place-items: center; padding: 18px; z-index: 5; }
+
+.modal.open { display: grid; }
+
+.modal-box { width: min(580px, 100%); max-height: 90vh; overflow: auto; background: rgb(21, 24, 50); border: 1px solid rgb(67, 74, 132); border-radius: 18px; padding: 20px; box-shadow: var(--shadow); }
+
+.modal-box h3 { margin-top: 0px; }
+
+.modal-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 15px; }
+
+.divider { height: 1px; background: rgb(46, 51, 91); margin: 16px 0px; }
+
+.note-card { position: relative; }
+
+.note-card p { white-space: pre-wrap; color: rgb(214, 218, 244); line-height: 1.5; margin: 0.5rem 0px; }
+
+.reminder-time { font-weight: 800; color: var(--yellow); }
+
+@media (max-width: 760px) {
+  .app { padding: 16px 13px 38px; }
+  .top { align-items: flex-start; }
+  .date { display: none; }
+  .grid.stats { grid-template-columns: repeat(2, 1fr); }
+  .grid.two, .budget-layout, .split { grid-template-columns: 1fr; }
+  .budget-form, .form-grid { grid-template-columns: 1fr; }
+  .form-grid .wide { grid-column: auto; }
+  .hero { padding: 20px; }
+  .card { padding: 15px; }
+  .top { margin-bottom: 17px; }
+}
+------MultipartBoundary--Lid9DaUqQfuGCwERvqvZHb62BVmoOXxZHLEwSq8KgB------
